@@ -1,0 +1,4 @@
+.DS_Store
+_site/case-studies/:slug.md
+_site/
+.jekyll-cache/

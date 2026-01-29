@@ -17,4 +17,4 @@ You will be automatically redirected in a new tab in 3 seconds, or click the but
 
 ---
 
-*Thank you for visiting!*
+*Thank you for visiting!**
