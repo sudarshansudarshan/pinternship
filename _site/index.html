@@ -1,99 +1,155 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Home | Pinternship</title>
-<meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Home" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Pinternship - Redirect page to Vinternship" />
-<meta property="og:description" content="Pinternship - Redirect page to Vinternship" />
-<link rel="canonical" href="http://localhost:4002/pinternship/" />
-<meta property="og:url" content="http://localhost:4002/pinternship/" />
-<meta property="og:site_name" content="Pinternship" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Home" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Pinternship - Redirect page to Vinternship","headline":"Home","name":"Pinternship","url":"http://localhost:4002/pinternship/"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/pinternship/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4002/pinternship/feed.xml" title="Pinternship" /></head>
-<head><!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-87W6B0JP70"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-87W6B0JP70');
-</script></head>
-  <body><header class="site-header" role="banner">
-
-  <div class="wrapper"><a class="site-title" rel="author" href="/pinternship/">Pinternship</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-
-        <div class="trigger"><a class="page-link" href="/pinternship/">Home</a></div>
-      </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="icon">🚀</div>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | Pinternship</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 700px;
+      padding: 50px 40px;
+      text-align: center;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      animation: fadeInUp 0.8s ease-out;
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.3em;
+      color: #667eea;
+      font-weight: 700;
+      animation: slideIn 0.8s ease-out 0.2s backwards;
+    }
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    h2 {
+      font-size: 1.8em;
+      margin: 1.5em 0;
+      animation: slideIn 0.8s ease-out 0.4s backwards;
+    }
+    h2 a {
+      display: inline-block;
+      padding: 15px 40px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    }
+    h2 a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+    }
+    p {
+      font-size: 1.2em;
+      color: #666;
+      margin: 1.5em 0;
+      animation: slideIn 0.8s ease-out 0.3s backwards;
+    }
+    hr {
+      border: 0;
+      border-top: 2px solid #f0f0f0;
+      margin: 2.5em 0;
+      animation: slideIn 0.8s ease-out 0.5s backwards;
+    }
+    em {
+      color: #999;
+      font-style: italic;
+      font-size: 1.1em;
+      animation: slideIn 0.8s ease-out 0.6s backwards;
+    }
+    .icon {
+      font-size: 4em;
+      margin-bottom: 20px;
+      animation: bounce 2s ease-in-out infinite;
+    }
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+    @media (max-width: 768px) {
+      .container {
+        padding: 30px 20px;
+        margin: 20px;
+      }
+      h1 {
+        font-size: 2em;
+      }
+      h2 {
+        font-size: 1.4em;
+      }
+      h2 a {
+        padding: 12px 30px;
+      }
+    }
+  </style>
+  <script>
+    window.onload = function() {
+      setTimeout(function() {
+        window.open('https://sudarshansudarshan.github.io/vinternship/', '_blank');
+      }, 3000);
+    };
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">🚀</div>
 
 <h1 id="website-moved">Website Moved</h1>
 
-<p>This website has been moved to a new location.</p>
+<p style="font-size: 1.3em; color: #555; margin: 1.5em 0;">This website has been moved to a new location.</p>
 
-<p>Please visit our new site at:</p>
+<p style="font-weight: 500; color: #667eea; font-size: 1.2em;">Please visit our new site at:</p>
 
-<h2 id="visit-vinternship"><a href="https://sudarshansudarshan.github.io/vinternship/" target="_blank">Visit Vinternship</a></h2>
+<h2 id="visit-vinternship-"><a href="https://sudarshansudarshan.github.io/vinternship/" target="_blank">Visit Vinternship →</a></h2>
 
-<p>You will be automatically redirected in a new tab in 3 seconds, or click the button above to continue.</p>
+<p style="color: #888; font-size: 1.05em; margin-top: 2em;">✨ You will be automatically redirected in a new tab in <strong>3 seconds</strong>, or click the button above to continue.</p>
 
 <hr />
 
-<p>*Thank you for visiting!**</p>
-
-      </div>
-    </main>
-
-	<!-- The following code is commented out to remove the footer information in the default page.-->	
-	<!--<footer class="site-footer h-card">
-  <data class="u-url" href="/pinternship/"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">Pinternship</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">Pinternship</li><li><a class="u-email" href="mailto:sudarshan@iitrpr.ac.in">sudarshan@iitrpr.ac.in</a></li></ul>
-      </div>
-
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/sudarshansudarshan"><svg class="svg-icon"><use xlink:href="/pinternship/assets/minima-social-icons.svg#github"></use></svg> <span class="username">sudarshansudarshan</span></a></li><li><a href="https://www.twitter.com/sudarshaniisc"><svg class="svg-icon"><use xlink:href="/pinternship/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">sudarshaniisc</span></a></li></ul>
-</div>
-
-      <div class="footer-col footer-col-3">
-        <p>Pinternship - Redirect page to Vinternship</p>
-      </div>
-    </div>
+<p><em style="font-size: 1.15em; color: #999;">Thank you for visiting! 🙏</em></p>
 
   </div>
-
-</footer>
--->
-
-  </body>
-
+</body>
 </html>
-
-
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
